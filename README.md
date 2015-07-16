@@ -28,7 +28,7 @@ elixir(function(mix) {
 Run it!
 ````sh
 $ gulp watch
-``
+```
 
 Opens a php server instance with browser-sync enabled configured using the default parameters.
 * php server: 127.0.0.1:8000
