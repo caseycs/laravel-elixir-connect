@@ -26,7 +26,7 @@ elixir(function(mix) {
 ```
 
 Run it!
-````sh
+```sh
 $ gulp watch
 ```
 
