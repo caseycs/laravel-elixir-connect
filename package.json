@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-connect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Laravel Elixir wrapper for gulp-connect-php which supports live reload with browser-sync.",
   "main": "index.js",
   "scripts": {
