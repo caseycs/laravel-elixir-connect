@@ -24,7 +24,7 @@
     "url": "https://github.com/obarcelonap/laravel-elixir-connect/issues"
   },
   "homepage": "https://github.com/obarcelonap/laravel-elixir-connect#readme",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.7.13",
     "gulp": "^3.9.0",
     "gulp-connect-php": "0.0.5",
