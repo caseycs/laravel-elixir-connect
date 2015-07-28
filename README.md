@@ -16,7 +16,7 @@ $ npm install --save-dev laravel-elixir-connect
 In gulpfile.js:
 ```javascript
 var elixir = require('laravel-elixir');
-require('laravel-elixir-connect);
+require('laravel-elixir-connect)(elixir);
 
 elixir(function(mix) {
     mix.elixirConnect({
@@ -40,7 +40,7 @@ Opens a php server instance with browser-sync enabled configured using the defau
 
 ```javascript
 var elixir = require('laravel-elixir');
-require('laravel-elixir-connect);
+require('laravel-elixir-connect)(elixir);
 
 elixir(function(mix) {
     mix.elixirConnect({
@@ -56,7 +56,7 @@ Note: browser-sync it's not enabled by default.
 
 ```javascript
 var elixir = require('laravel-elixir');
-require('laravel-elixir-connect);
+require('laravel-elixir-connect)(elixir);
 
 elixir(function(mix) {
     mix.elixirConnect({
