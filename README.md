@@ -40,7 +40,7 @@ Opens a php server instance with browser-sync enabled configured using the defau
 
 ```javascript
 var elixir = require('laravel-elixir');
-require('laravel-elixir-connect)(elixir);
+require('laravel-elixir-connect')(elixir);
 
 elixir(function(mix) {
     mix.elixirConnect({
